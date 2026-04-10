@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #e8eaf0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-shell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.phone-frame {
+  width: 390px;
+  min-height: 700px;
+  background: #f7f7f7;
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Shared Inputs ---- */
+.field-wrap {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.field-wrap label {
+  position: absolute;
+  top: -9px;
+  left: 14px;
+  background: #f7f7f7;
+  padding: 0 4px;
+  font-size: 12px;
+  color: #7c3aed;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.field-wrap input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.field-wrap input:focus {
+  border-color: #7c3aed;
+}
+
+.field-wrap input::placeholder {
+  color: #bbb;
+}
+
+/* ---- Buttons ---- */
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background: #7c3aed;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 12px;
+}
+
+.btn-primary:hover {
+  background: #6d28d9;
+}
+
+.btn-secondary {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background: #d8c9f8;
+  color: #7c3aed;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-secondary:hover {
+  background: #c4b0f4;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #7c3aed;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+}
+
+.back-btn:hover {
+  opacity: 0.7;
+}
+
+.req {
+  color: #7c3aed;
+}

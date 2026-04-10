@@ -1,0 +1,30 @@
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #f7f7f7;
+  min-height: 700px;
+}
+
+.welcome-spacer {
+  flex: 1;
+}
+
+.welcome-bottom {
+  padding: 32px 28px 48px;
+}
+
+.welcome-bottom h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.welcome-bottom p {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}

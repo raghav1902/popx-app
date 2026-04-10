@@ -1,0 +1,50 @@
+.register-screen {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  padding: 48px 28px 32px;
+  min-height: 700px;
+  overflow-y: auto;
+}
+
+.register-screen h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.3;
+  margin-bottom: 28px;
+}
+
+.agency-group {
+  margin-bottom: 8px;
+}
+
+.agency-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.agency-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.agency-row label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.agency-row input[type="radio"] {
+  accent-color: #7c3aed;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
