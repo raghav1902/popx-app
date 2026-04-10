@@ -1,3 +1,7 @@
+Hi, here is the live project link: https://popx-app-gamma-gold.vercel.app
+
+
+
 # PopX App
 
 
